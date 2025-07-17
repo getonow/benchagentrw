@@ -1,0 +1,13 @@
+      ╭───────────────╮  
+      │  ⌀45         │  
+      │  ┌───────┐    │  
+      └──┴───────┴────┘  
+      Section View (mm)  
+
+Clip Bracket
+
+  DIMENSIONS:  
+  - 150x80x50mm  
+  - ⌀45mm lens opening  
+  - Snap-fit clips (2mm thick)  
+  - Material: PP unfilled

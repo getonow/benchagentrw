@@ -1,0 +1,20 @@
+      ┌───────────────┐
+      │               │
+      │      ⌀10      │
+      │    ┌─────┐    │
+      │    │     │    │
+      │    │ ⌀5  │    │
+      │    │     │    │
+      └────┴─────┴────┘
+      Side View (mm)
+      
+Headlamp Housing
+
+Material: PP unfilled
+
+      DIMENSIONS:
+      - OD: 10mm
+      - ID: 5mm
+      - Thickness: 3mm
+      - Material: PA6
+      - Tolerance: ±0.2mm

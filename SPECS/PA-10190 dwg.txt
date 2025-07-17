@@ -1,0 +1,14 @@
+      ╭───────┬───────╮  
+      │  ⌀5   │  ⌀5   │  
+      │  │     │  │    │  
+      └──┼─────┴──┼────┘  
+         └──12───┘  
+      Front View (mm)  
+
+Handle Insert
+
+  DIMENSIONS:  
+  - 50x25x10mm  
+  - 2x ⌀5mm mounting holes (12mm spaced)  
+  - Ribbed underside (2mm thick ribs)  
+  - Material: PA6 30%GF  

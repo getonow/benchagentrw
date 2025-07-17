@@ -1,0 +1,14 @@
+      ╭───────────────╮  
+     /  ╲       ╱  \  
+    / ◄─Hinge─►   \  
+   │  Light Pipe │ │  
+   ╰──┬───────┬──╯  
+      │Weld Tab│  
+
+Housing Cover
+
+DIMENSIONS:  
+- 160x70x3mm (hinge section: 0.8mm thick)  
+- 2x light pipe channels (⌀3mm, 100mm long)  
+- 4x ultrasonic weld tabs (1.5x1.5mm)  
+- Material: PPA

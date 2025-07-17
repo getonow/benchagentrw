@@ -1,0 +1,15 @@
+      ╭────────────────╮  
+     /  /\/\/\/\  \     (Fresnel slots)  
+    /  │  ⌀50  │   \  
+   │   └┬─────┬┘    │  
+   ╰────┴─────┴─────╯  
+   Rear Fins:  
+   ||||||| (1.5mm spacing)  
+
+Sensor Housing
+
+DIMENSIONS:  
+- 180x90x60mm (freeform surface)  
+- ⌀50mm lens mount (0.5mm draft)  
+- 12x cooling fins (20mm tall, 1mm thick)  
+- Material: PA66 15%GF  

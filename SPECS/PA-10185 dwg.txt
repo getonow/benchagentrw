@@ -1,0 +1,12 @@
+      ╭───────╮  
+      │  │││  │  
+      │  │││  │  
+      ╰───────╯  
+      Grip Section (mm)  
+
+Intake Manifold Bracket
+
+  DIMENSIONS:  
+  - 120x25x15mm  
+  - 3x 2mm ribs for grip  
+  - Material: PA66 15%GF  

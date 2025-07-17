@@ -1,0 +1,14 @@
+      ┌─────────────────┐  
+      │  M4 (x4)        │  
+      │  ┌─────────┐    │  
+      │  │         │    │  
+      └──┴─────────┴────┘  
+      Bottom View (mm)  
+
+Gear Shift Base
+
+  DIMENSIONS:  
+  - 100x60x5mm  
+  - 4x M4 threaded inserts  
+  - Draft angle: 1° (all sides)  
+  - Material: PPS Carbon filled 

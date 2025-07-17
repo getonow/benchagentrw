@@ -1,0 +1,13 @@
+┌─────────────┐
+│  ◄─┐  ┌─►   │
+│    └──┘     │
+└─────────────┘
+Isometric (mm)
+
+Connector Assembly
+
+DIMENSIONS:
+- 35x15x3mm 
+- 10mm wide clip opening
+- 0.5mm draft all sides
+- Material: PA66 15%GF

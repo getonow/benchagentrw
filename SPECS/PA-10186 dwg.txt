@@ -1,0 +1,12 @@
+      ┌───────┐  
+      │  ⌀20  │  
+      │  ┌─┐  │  
+      └──┴─┴──┘  
+      Front View (mm)  
+
+Headlamp Housing
+
+  DIMENSIONS:  
+  - ⌀60mm flange, ⌀20mm inlet  
+  - 4x M5 bolt holes  
+  - Material: PA6 30%GF  

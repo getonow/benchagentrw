@@ -1,0 +1,14 @@
+    ╱╲╱╲╱╲╱╲╱╲╱╲
+   │  ◄─Overgrip─►  │ (TPE overmold zone)
+   └───┬───┬───┬───┘
+       │Lobe│ (120° spaced)
+   ╭───┴───┴───┴───╮
+   │  ⌀19mm Core   │
+
+Thermostat Housing
+
+DIMENSIONS:
+- 150mm length with 12mm diameter core
+- 3x anti-rotation lobes (1.5mm protrusion)
+- 0.5mm gap for TPE overmold
+- Material: PA66 15%GF

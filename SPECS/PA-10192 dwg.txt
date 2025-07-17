@@ -1,0 +1,14 @@
+      ┌───────────────┐
+      │  ⌀25↧20       │
+      │  ┌───────┐    │
+      │  │ ⌀8    │    │
+      └──┴───────┴────┘
+      Side View (mm)
+
+Fuel Rail Bracket
+  
+  DIMENSIONS:
+  - 60x50x30mm (LxWxH)
+  - ⌀25mm inlet, ⌀8mm outlet
+  - 6x M5 mounting holes
+  - Material: PP unfilled

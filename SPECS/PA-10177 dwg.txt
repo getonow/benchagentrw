@@ -1,0 +1,9 @@
+    ╭─────┬─────┬─────╮
+   /  X  │  X  │  X   \ (Shear pin slots)
+  │  ╲ ╱ │ ╲ ╱ │ ╲ ╱  │
+  ╰───┴───┴───┴───╯
+  Damping Structure:
+  ──╱╲──╱╲── (1mm wall honey
+
+Headlamp Housing
+PA66 15%GF

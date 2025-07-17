@@ -1,0 +1,12 @@
+┌─────────────┐
+│  ┌───┐      │
+│  │   │  ⌀4  │
+└──┴───┴──────┘
+Front View (mm)
+
+Control Module Base
+DIMENSIONS:
+- 40x20x2mm (LxWxThk)
+- ⌀4mm retention hole
+- 1.5mm snap arm (5mm deflection)
+- Material: PP Unfilled

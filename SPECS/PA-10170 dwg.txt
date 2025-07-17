@@ -1,0 +1,11 @@
+┌───────────────┐
+│  M5 (x4)      │
+│  ┌───────┐    │
+└──┴───────┴────┘
+Plan View (mm)
+
+Electronic Enclosure
+DIMENSIONS:
+- 150x100x8mm
+- 4x M5 threaded bosses
+- Material: PA66 + 15% GF

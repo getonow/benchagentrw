@@ -1,0 +1,11 @@
+      ┌───┬───────┬───┐  
+      │   │  ⌀6   │   │  
+      └───┴───────┴───┘  
+      Side View (mm)  
+
+Handle Insert
+
+  DIMENSIONS:  
+  - 70x20x15mm  
+  - 1x ⌀6mm fuel line clip  
+  - Material: PPS Carbon filled

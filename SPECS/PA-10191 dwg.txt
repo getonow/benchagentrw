@@ -1,0 +1,14 @@
+      ┌───────────────┐  
+      │  ⌀3.5 (x6)    │  
+      │  ┌───────┐    │  
+      │  │ □6x6  │    │  
+      └──┴───────┴────┘  
+      Top View (mm)  
+
+Fuel Cap Housing
+
+  DIMENSIONS:  
+  - 40x30x15mm (LxWxH)  
+  - 6x ⌀3.5mm press-fit pins  
+  - Central 6x6mm square slot  
+  - Material: PA66 + 15%GF  

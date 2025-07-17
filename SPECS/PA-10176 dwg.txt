@@ -1,0 +1,14 @@
+    ╭───────────────╮
+   /  ◄─Flexure─►   \ 
+  │  ┌───┐       │  │ (120° pedal angle)
+  ╰──┤   ├──┬──┬──╯
+     └─┬─┘  │Notch│ (3x)
+       ⌀12mm Pivot
+
+Fuel Rail Bracket
+
+DIMENSIONS:
+- 180x40x15mm
+- Living hinge (0.6mm thick, 5mm radius)
+- 3x strain relief notches (0.3mm root)
+- Material: PA66 15%GF

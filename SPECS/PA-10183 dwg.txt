@@ -1,0 +1,17 @@
+      ╭───────────────╮  
+     /   _│_    \     
+    /  ──/   \── \   (Top View)  
+   │  │ Cable │  │  
+   ╰──┴───────┴──╯  
+   Side Profile:  
+     ___  
+    /   \_ (15° tilt)  
+   ───────  
+
+Control Module Base
+
+DIMENSIONS:  
+- 120x60x25mm (organic shape)  
+- 2x snap-fit latches (1.5mm deflection)  
+- Internal cable channel (⌀5mm, 80mm long)  
+- Material: PPS + 40% Carbon Fiber  

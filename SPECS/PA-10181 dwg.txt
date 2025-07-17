@@ -1,0 +1,15 @@
+      ╭──────┬──────╮  
+     /  ⌀4│⌀4 │⌀4 \  
+    /  ──┴──┴──┴── \  
+   │  │◄ Overmold ►│ │  
+   ╰──┴──────┴──────╯  
+   Crush Ribs:  
+   ────┬┬┬┬──── (0.3mm interference)  
+
+Pump Housing
+
+DIMENSIONS:  
+- 80x40x25mm  
+- 3x ⌀4mm fluid ports (15° angled)  
+- Overmold slot (1.2mm wide, 5mm deep)  
+- Material: PPS Carbon filled

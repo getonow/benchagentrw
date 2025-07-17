@@ -1,0 +1,11 @@
+╭─────────────╮
+│  │╲ │ ╱│    │
+│  │ ╲│╱ │    │
+╰──┴─────┴──╯
+Grip Section (mm)
+
+Pump Housing
+DIMENSIONS:
+- 100x20x12mm
+- 45° finger grooves
+- Material: PA6 30%GF

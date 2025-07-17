@@ -1,0 +1,22 @@
+# Database Configuration
+DATABASE_URL=postgresql://username:password@localhost:5432/benchagent
+
+# Supabase Configuration
+SUPABASE_URL=https://btwbudemzcbaqxnpcgtf.supabase.co
+SUPABASE_ANON_KEY=mykeyhere
+
+# OpenAI Configuration
+OPENAI_API_KEY=your_openai_api_key_here
+OPENAI_MODEL=gpt-4
+
+# File Paths
+SPECS_DIRECTORY=C:/Development/benchagent/SPECS
+
+# Web Scraping Configuration
+MAX_ALTERNATIVE_SUPPLIERS=5
+WEB_SCRAPING_TIMEOUT=30
+
+# API Configuration
+API_HOST=0.0.0.0
+API_PORT=8099
+DEBUG=True 

@@ -1,0 +1,12 @@
+╭───────┬───────╮
+│  ⌀8   │  ⌀8   │
+└───┼───┴───┼───┘
+    └─25mm─┘
+Top View (mm)
+
+Fuel Rail Bracket
+DIMENSIONS:
+- 80x30x10mm
+- 2x ⌀8mm mounting holes
+- 3mm ribs between holes
+- Material: PPA

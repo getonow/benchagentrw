@@ -1,0 +1,15 @@
+      ╭───────╮  
+     /   ⌀30↘  \  
+    /  ↗       \   
+   │  ↖_Helix_ │  
+   ╰───┬─────┬──╯  
+       ⌀12 (outlet)  
+   Section View (mm)  
+
+Clip Bracket
+
+DIMENSIONS:  
+- Inlet: ⌀30mm (helical path, 15° twist)  
+- Outlet: ⌀12mm (tapered to 8mm over 20mm)  
+- 3x asymmetric ribs (2mm thick, 45° staggered)  
+- Material: PP unfilled  

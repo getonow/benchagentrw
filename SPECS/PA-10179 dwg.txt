@@ -1,0 +1,15 @@
+    ╭──────────────────╮
+   /│  ╲╱╲╱╲╱ │        \ 
+  / │◄─EMI Groove─►│     \
+ │  ├──────────────┤      │ (45° iso)
+ ╰──┴────┬────┬────┴──────╯
+         │Lattice│ (2mm cells)
+
+         └──────┘
+Handle Insert
+
+DIMENSIONS:
+- 110x75x12mm (with 5mm lattice substructure)
+- 6x M3 threaded inserts (molded-in)
+- EMI grooves (0.8mm deep, 2mm pitch)
+- Material: PA6 30%GF

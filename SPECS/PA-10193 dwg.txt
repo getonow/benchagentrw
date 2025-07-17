@@ -1,0 +1,15 @@
+      ╭───────╮
+      │  ⌀12  │
+      │  ┌─┐   │
+      │  │ │↧8 │
+      │  └─┘   │
+      ╰───────╯
+      Section View (mm)
+
+Housing Cover
+  
+  DIMENSIONS:
+  - OD: 25mm, ID: 12mm
+  - Height: 15mm
+  - 2x ⌀3mm alignment holes
+  - Material: PP unfilled
