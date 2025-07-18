@@ -3,7 +3,7 @@ import json
 
 def test_single_endpoint():
     """Test the single analyze-part endpoint that does everything"""
-    url = "http://localhost:8099/api/analyze-part"
+    url = "https://your-app.railway.app/api/analyze-part"
     
     # Only part number needed
     test_data = {

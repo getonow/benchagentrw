@@ -9,7 +9,7 @@ import os
 
 def debug_file_download():
     """Debug file download response"""
-    base_url = "http://localhost:8099"
+    base_url = "https://your-app.railway.app"
     filename = "PA-10183 CELESTRAN.pdf"
     encoded_filename = urllib.parse.quote(filename)
     
@@ -65,7 +65,7 @@ def debug_file_download():
 
 def test_browser_simulation():
     """Simulate browser behavior"""
-    base_url = "http://localhost:8099"
+    base_url = "https://your-app.railway.app"
     filename = "PA-10183 CELESTRAN.pdf"
     encoded_filename = urllib.parse.quote(filename)
     

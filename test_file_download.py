@@ -8,7 +8,7 @@ import urllib.parse
 
 def test_file_download():
     """Test file download functionality"""
-    base_url = "http://localhost:8099"
+    base_url = "https://your-app.railway.app"
     
     # Test with a file that has spaces in the name
     filename = "PA-10183 CELESTRAN.pdf"
@@ -76,7 +76,7 @@ def test_file_download():
 
 def test_available_parts():
     """Test the available parts endpoint"""
-    base_url = "http://localhost:8099"
+    base_url = "https://your-app.railway.app"
     
     print(f"\n4. Testing available parts:")
     try:

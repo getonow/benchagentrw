@@ -8,7 +8,7 @@ import json
 
 def test_cors_configuration():
     """Test CORS configuration for the API"""
-    base_url = "http://localhost:8099"
+    base_url = "https://your-app.railway.app"
     
     # Test endpoints
     endpoints = [
@@ -76,7 +76,7 @@ def test_cors_configuration():
 
 def test_frontend_origin():
     """Test with actual frontend origin"""
-    base_url = "http://localhost:8099"
+    base_url = "https://your-app.railway.app"
     frontend_origin = "https://preview-vxc8dzbt--ai-procure-optimize-4.deploypad.app"
     
     print(f"\nTesting with frontend origin: {frontend_origin}")

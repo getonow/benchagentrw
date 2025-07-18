@@ -86,7 +86,7 @@ This script tests:
 ### Manual Testing
 You can test the file download manually:
 
-1. **Direct URL**: `http://localhost:8099/api/files/download/PA-10183%20CELESTRAN.pdf`
+1. **Direct URL**: `https://your-app.railway.app/api/files/download/PA-10183%20CELESTRAN.pdf`
 2. **Frontend Integration**: The frontend should now be able to download files successfully
 
 ## Expected Behavior
@@ -140,7 +140,7 @@ a.click();
 
 ### curl Command
 ```bash
-curl -X GET "http://localhost:8099/api/files/download/PA-10183%20CELESTRAN.pdf" \
+curl -X GET "https://your-app.railway.app/api/files/download/PA-10183%20CELESTRAN.pdf" \
   -H "Origin: https://preview-vxc8dzbt--ai-procure-optimize-4.deploypad.app" \
   --output downloaded_file.pdf
 ```

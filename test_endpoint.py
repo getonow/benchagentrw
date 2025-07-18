@@ -3,7 +3,7 @@ import json
 
 def test_search_alternatives():
     """Test the search alternatives endpoint"""
-    url = "http://localhost:8099/api/search-alternatives"
+    url = "https://your-app.railway.app/api/search-alternatives"
     
     # Test data
     test_data = {
@@ -46,7 +46,7 @@ def test_search_alternatives():
 
 def test_health():
     """Test the health endpoint"""
-    url = "http://localhost:8099/health"
+    url = "https://your-app.railway.app/health"
     
     try:
         print("\nTesting health endpoint...")
@@ -58,7 +58,7 @@ def test_health():
 
 def test_database():
     """Test the database connection"""
-    url = "http://localhost:8099/api/database/test"
+    url = "https://your-app.railway.app/api/database/test"
     
     try:
         print("\nTesting database connection...")

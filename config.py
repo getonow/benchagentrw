@@ -5,7 +5,7 @@ load_dotenv()
 
 class Config:
     # Database Configuration
-    DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://user:password@localhost:5432/benchagent")
+    DATABASE_URL = os.getenv("DATABASE_URL", "")
     
     # Supabase Configuration
     SUPABASE_URL = os.getenv("SUPABASE_URL")

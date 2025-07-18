@@ -10,7 +10,7 @@ import time
 from typing import Dict, Any
 
 class BenchExtractClient:
-    def __init__(self, base_url: str = "http://localhost:8000"):
+    def __init__(self, base_url: str = "https://your-app.railway.app"):
         self.base_url = base_url
         self.session = requests.Session()
     

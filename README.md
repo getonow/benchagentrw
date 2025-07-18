@@ -81,7 +81,7 @@ For deploying to Railway or other cloud platforms, see [DEPLOYMENT.md](./DEPLOYM
 
 | Variable | Description | Default |
 |----------|-------------|---------|
-| `DATABASE_URL` | PostgreSQL connection string | `postgresql://user:password@localhost:5432/benchagent` |
+| `DATABASE_URL` | PostgreSQL connection string | `postgresql://user:password@your-database-host:5432/benchagent` |
 | `OPENAI_API_KEY` | OpenAI API key | Required |
 | `OPENAI_MODEL` | OpenAI model to use | `gpt-4` |
 | `SPECS_DIRECTORY` | Path to technical specifications | `C:/Development/benchagent/SPECS` |
@@ -211,7 +211,7 @@ Analyzes a part and generates comprehensive benchmark recommendations.
 import requests
 
 # Analyze a part
-response = requests.post("http://localhost:8000/api/analyze-part", 
+response = requests.post("https://your-app.railway.app/api/analyze-part", 
                         json={"part_number": "PA-10183"})
 data = response.json()
 
@@ -222,12 +222,12 @@ print(f"Potential savings: {data['benchmark_summary']['potential_savings']} EUR"
 
 ```bash
 # Analyze part
-curl -X POST "http://localhost:8000/api/analyze-part" \
+curl -X POST "https://your-app.railway.app/api/analyze-part" \
      -H "Content-Type: application/json" \
      -d '{"part_number": "PA-10183"}'
 
 # Get available parts
-curl "http://localhost:8000/api/parts/available"
+curl "https://your-app.railway.app/api/parts/available"
 ```
 
 ## Running the Service

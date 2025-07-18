@@ -11,8 +11,7 @@ Added FastAPI CORS middleware to `main.py` with the following configuration:
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3000",  # Local development
-        "http://localhost:5173",  # Vite dev server
+        # Local development URLs removed for cloud deployment
         "https://preview-vxc8dzbt--ai-procure-optimize-4.deploypad.app",  # Deployed frontend
         "https://*.deploypad.app",  # All deploypad subdomains
         "*"  # Allow all origins (for development only - remove in production)
@@ -56,7 +55,7 @@ python test_cors.py
 bash test_cors_curl.sh
 
 # Or run individual commands:
-curl -X OPTIONS "http://localhost:8099/api/health" \
+curl -X OPTIONS "https://your-app.railway.app/api/health" \
   -H "Origin: https://preview-vxc8dzbt--ai-procure-optimize-4.deploypad.app" \
   -H "Access-Control-Request-Method: GET" \
   -H "Access-Control-Request-Headers: Content-Type" \

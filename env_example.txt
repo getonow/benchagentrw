@@ -1,5 +1,5 @@
 # Database Configuration
-DATABASE_URL=postgresql://username:password@localhost:5432/benchagent
+DATABASE_URL=postgresql://username:password@your-database-host:5432/benchagent
 
 # Supabase Configuration
 SUPABASE_URL=https://btwbudemzcbaqxnpcgtf.supabase.co

@@ -32,8 +32,6 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3000",  # Local development
-        "http://localhost:5173",  # Vite dev server
         "https://preview-vxc8dzbt--ai-procure-optimize-4.deploypad.app",  # Deployed frontend
         "https://*.deploypad.app",  # All deploypad subdomains
         "https://*.railway.app",  # Railway deployments

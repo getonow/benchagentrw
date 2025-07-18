@@ -4,7 +4,7 @@
 echo "Testing CORS Configuration with curl"
 echo "===================================="
 
-BASE_URL="http://localhost:8099"
+BASE_URL="https://your-app.railway.app"
 FRONTEND_ORIGIN="https://preview-vxc8dzbt--ai-procure-optimize-4.deploypad.app"
 
 echo -e "\n1. Testing OPTIONS request for /api/health:"

@@ -8,7 +8,7 @@ import urllib.parse
 
 def test_direct_browser_access():
     """Test how browser would handle direct access"""
-    base_url = "http://localhost:8099"
+    base_url = "https://your-app.railway.app"
     filename = "PA-10183 CELESTRAN.pdf"
     encoded_filename = urllib.parse.quote(filename)
     
@@ -46,7 +46,7 @@ def test_direct_browser_access():
 
 def test_with_different_accept_headers():
     """Test with different Accept headers"""
-    base_url = "http://localhost:8099"
+    base_url = "https://your-app.railway.app"
     filename = "PA-10183 CELESTRAN.pdf"
     encoded_filename = urllib.parse.quote(filename)
     

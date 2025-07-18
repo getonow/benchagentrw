@@ -157,12 +157,12 @@ python test_service.py --file-only
 ### 4. API Usage
 ```bash
 # Analyze a part
-curl -X POST "http://localhost:8000/api/analyze-part" \
+curl -X POST "https://your-app.railway.app/api/analyze-part" \
      -H "Content-Type: application/json" \
      -d '{"part_number": "PA-10183"}'
 
 # Get available parts
-curl "http://localhost:8000/api/parts/available"
+curl "https://your-app.railway.app/api/parts/available"
 ```
 
 ## Key Features Implemented
