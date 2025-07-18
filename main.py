@@ -32,16 +32,20 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "http://localhost:3000",  # React development server
+        "http://localhost:5173",  # Vite development server
         "https://preview-vxc8dzbt--ai-procure-optimize-4.deploypad.app",  # Deployed frontend
         "https://*.deploypad.app",  # All deploypad subdomains
         "https://*.railway.app",  # Railway deployments
         "https://*.vercel.app",  # Vercel deployments
         "https://*.netlify.app",  # Netlify deployments
-        "*"  # Allow all origins (for development only - remove in production)
+        "*"  # Allow all origins (for development and production)
     ],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-    allow_headers=["*"],
+    allow_headers=["Content-Type", "Authorization", "X-Requested-With", "*"],
+    expose_headers=["Content-Type", "Content-Disposition"],
+    max_age=86400,  # Cache preflight requests for 24 hours
 )
 
 # Initialize services
@@ -68,7 +72,9 @@ async def http_exception_handler(request, exc):
         headers={
             "Access-Control-Allow-Origin": "*",
             "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
-            "Access-Control-Allow-Headers": "*",
+            "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Requested-With",
+            "Access-Control-Allow-Credentials": "true",
+            "Access-Control-Max-Age": "86400",
         }
     )
 
@@ -117,6 +123,18 @@ async def api_health_check():
     """API health check endpoint for frontend"""
     return {"status": "healthy", "message": "BENCHEXTRACT API is running"}
 
+@app.get("/api/cors-test")
+async def cors_test():
+    """Test endpoint to verify CORS configuration"""
+    return {
+        "message": "CORS test successful",
+        "timestamp": "2024-01-01T00:00:00Z",
+        "cors_enabled": True,
+        "allowed_origins": ["*"],
+        "allowed_methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+        "allowed_headers": ["Content-Type", "Authorization", "X-Requested-With"]
+    }
+
 @app.options("/api/health")
 async def options_api_health():
     """Handle OPTIONS requests for API health check"""
@@ -124,8 +142,23 @@ async def options_api_health():
         content={},
         headers={
             "Access-Control-Allow-Origin": "*",
-            "Access-Control-Allow-Methods": "GET, OPTIONS",
-            "Access-Control-Allow-Headers": "Content-Type",
+            "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+            "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Requested-With",
+            "Access-Control-Allow-Credentials": "true",
+            "Access-Control-Max-Age": "86400",
+        }
+    )
+
+@app.options("/api/cors-test")
+async def options_cors_test():
+    """Handle OPTIONS requests for CORS test endpoint"""
+    return JSONResponse(
+        content={},
+        headers={
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+            "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Requested-With",
+            "Access-Control-Allow-Credentials": "true",
             "Access-Control-Max-Age": "86400",
         }
     )
@@ -173,8 +206,9 @@ async def options_analyze_part():
         content={},
         headers={
             "Access-Control-Allow-Origin": "*",
-            "Access-Control-Allow-Methods": "POST, OPTIONS",
-            "Access-Control-Allow-Headers": "Content-Type, Authorization",
+            "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+            "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Requested-With",
+            "Access-Control-Allow-Credentials": "true",
             "Access-Control-Max-Age": "86400",
         }
     )
