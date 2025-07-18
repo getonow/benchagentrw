@@ -35,6 +35,7 @@ app.add_middleware(
         "http://localhost:3000",  # React development server
         "http://localhost:5173",  # Vite development server
         "https://preview-vxc8dzbt--ai-procure-optimize-4.deploypad.app",  # Deployed frontend
+        "https://preview-4uxubwa7--ai-procure-optimize-5.deploypad.app",  # Your current frontend
         "https://*.deploypad.app",  # All deploypad subdomains
         "https://*.railway.app",  # Railway deployments
         "https://*.vercel.app",  # Vercel deployments
