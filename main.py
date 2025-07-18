@@ -28,7 +28,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Add CORS middleware
+# Add CORS middleware with comprehensive configuration
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -44,8 +44,8 @@ app.add_middleware(
     ],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-    allow_headers=["Content-Type", "Authorization", "X-Requested-With", "*"],
-    expose_headers=["Content-Type", "Content-Disposition"],
+    allow_headers=["Content-Type", "Authorization", "X-Requested-With", "Accept", "Origin", "Cache-Control", "X-File-Name"],
+    expose_headers=["Content-Type", "Content-Disposition", "Content-Length"],
     max_age=86400,  # Cache preflight requests for 24 hours
 )
 
@@ -133,7 +133,26 @@ async def cors_test():
         "cors_enabled": True,
         "allowed_origins": ["*"],
         "allowed_methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-        "allowed_headers": ["Content-Type", "Authorization", "X-Requested-With"]
+        "allowed_headers": ["Content-Type", "Authorization", "X-Requested-With", "Accept", "Origin", "Cache-Control", "X-File-Name"],
+        "api_url": "https://web-production-b5bc8.up.railway.app",
+        "status": "ready"
+    }
+
+@app.get("/api/cors-debug")
+async def cors_debug(request):
+    """Debug endpoint to show all request headers and CORS info"""
+    return {
+        "message": "CORS debug information",
+        "request_headers": dict(request.headers),
+        "request_method": request.method,
+        "request_url": str(request.url),
+        "cors_headers": {
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+            "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Requested-With, Accept, Origin, Cache-Control, X-File-Name",
+            "Access-Control-Allow-Credentials": "true",
+            "Access-Control-Max-Age": "86400"
+        }
     }
 
 @app.options("/api/health")
@@ -158,7 +177,21 @@ async def options_cors_test():
         headers={
             "Access-Control-Allow-Origin": "*",
             "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
-            "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Requested-With",
+            "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Requested-With, Accept, Origin, Cache-Control, X-File-Name",
+            "Access-Control-Allow-Credentials": "true",
+            "Access-Control-Max-Age": "86400",
+        }
+    )
+
+@app.options("/api/cors-debug")
+async def options_cors_debug():
+    """Handle OPTIONS requests for CORS debug endpoint"""
+    return JSONResponse(
+        content={},
+        headers={
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+            "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Requested-With, Accept, Origin, Cache-Control, X-File-Name",
             "Access-Control-Allow-Credentials": "true",
             "Access-Control-Max-Age": "86400",
         }
